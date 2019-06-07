@@ -12,7 +12,10 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        print("Before", UserConfig.hasSeenKYC)
+        UserConfig.hasSeenKYC = true
+        print("After", UserConfig.hasSeenKYC)
     }
 
 
