@@ -14,6 +14,7 @@
 		1F1B245722AABC6300EF1912 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F1B245622AABC6300EF1912 /* Assets.xcassets */; };
 		1F1B245A22AABC6300EF1912 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F1B245822AABC6300EF1912 /* LaunchScreen.storyboard */; };
 		1F1B246522AABC6300EF1912 /* PropertyWrappersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F1B246422AABC6300EF1912 /* PropertyWrappersTests.swift */; };
+		1F1B247222AAC02D00EF1912 /* PropertyWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F1B247122AAC02D00EF1912 /* PropertyWrapper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		1F1B246022AABC6300EF1912 /* PropertyWrappersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PropertyWrappersTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F1B246422AABC6300EF1912 /* PropertyWrappersTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyWrappersTests.swift; sourceTree = "<group>"; };
 		1F1B246622AABC6300EF1912 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F1B247122AAC02D00EF1912 /* PropertyWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyWrapper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 			children = (
 				1F1B244D22AABC6000EF1912 /* AppDelegate.swift */,
 				1F1B244F22AABC6000EF1912 /* SceneDelegate.swift */,
+				1F1B247122AAC02D00EF1912 /* PropertyWrapper.swift */,
 				1F1B245122AABC6000EF1912 /* ViewController.swift */,
 				1F1B245322AABC6000EF1912 /* Main.storyboard */,
 				1F1B245622AABC6300EF1912 /* Assets.xcassets */,
@@ -202,6 +205,7 @@
 			files = (
 				1F1B245222AABC6000EF1912 /* ViewController.swift in Sources */,
 				1F1B244E22AABC6000EF1912 /* AppDelegate.swift in Sources */,
+				1F1B247222AAC02D00EF1912 /* PropertyWrapper.swift in Sources */,
 				1F1B245022AABC6000EF1912 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
